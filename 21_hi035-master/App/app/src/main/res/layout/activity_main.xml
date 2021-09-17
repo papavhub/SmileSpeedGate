@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/han_sans_neo_medium"
+            android:gravity="center"
+            android:text="MEMBER LOGIN"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/login_user"
+            android:scaleType="fitCenter"
+            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/solid_edit"
+            android:id="@+id/edtID"
+            android:textColor="@color/black"
+            android:hint=" ID"
+            android:textSize="20dp"
+            android:singleLine="true"
+            android:fontFamily="@font/han_sans_neo_medium"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/login_pwd"
+            android:scaleType="fitCenter"/>
+        <EditText
+            android:id="@+id/edtPwd"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/solid_edit"
+            android:hint=" Password"
+            android:textSize="20dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:fontFamily="@font/han_sans_neo_medium"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/solid_button"
+            android:fontFamily="@font/han_sans_neo_medium"
+            android:text="Sign Up"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:background="@drawable/solid_button"
+            android:fontFamily="@font/han_sans_neo_medium"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

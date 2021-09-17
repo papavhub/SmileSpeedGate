@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2a52Be"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;"
+            android:background="#2a52Be"
+            android:fontFamily="@font/han_sans_neo_regular"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnRtn"/>
+        <TextView
+            android:text="메인"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="@font/han_sans_neo_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+
+        <ImageButton
+            android:id="@+id/btnUser"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:layout_margin="1dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:orientation="horizontal">
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="hh:mm"
+            android:format24Hour="HH:mm"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/han_sans_neo_regular"
+            android:layout_margin="20dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_weight="9"
+            android:textColor="@color/black"
+            android:id="@+id/Tv1"
+            android:text="22, June"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/btnNotice"
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/icon_notice"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/han_sans_neo_regular"
+                android:text="공지사항"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnRcd"
+                android:src="@drawable/icon_man"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/han_sans_neo_regular"
+                android:text="나의 동선"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/user"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나의 동선 확인"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="@font/han_sans_neo_regular"/>
+        </LinearLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/solid_button_gray"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:fontFamily="@font/han_sans_neo_regular"
+                android:text="공지사항"
+                android:textColor="@color/black"
+                android:layout_margin="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/han_sans_neo_regular"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:id="@+id/Tv2"
+                android:text="21nnnn 확진자 A 동선경로\n 14:03:nn A 게이트\n ..."/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+body{
+    margin : 0 auto;
+    padding : 0;
+    box-sizing: border-box;
+    background-color: #f1c40f;
+  }
+
+.contents{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+    flex-direction: column;
+}
+
+.cam{
+    margin: 0 auto;
+    width: 90vw;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+}
+
+
+.display{
+    margin: 0 3vw;
+}
+
+.id{
+    color : #fff;
+    color: yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+}
+.id h2{
+    margin: 2.3vh;
+}
+
+.temperature{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1vh;
+    color: rgb(241, 196, 15);
+}
+.date{
+    color: rgb(190, 190, 190);
+}
+
+.description{
+    padding: 5vh 0 0 0;
+}
+.description h1{
+    color: #fff;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+#label-container{
+    display: none;
+    color: #fff;
+    margin: 10vh 0 2vh 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
