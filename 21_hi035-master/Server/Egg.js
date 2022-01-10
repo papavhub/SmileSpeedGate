@@ -3,7 +3,7 @@ var mysql = require("mysql"); // mysql 모듈을 불러옵니다.
 // 커넥션을 정의합니다.
 // RDS Console 에서 본인이 설정한 값을 입력해주세요.
 var connection = mysql.createConnection({
-    host: "database-1.cmncqrwff0ap.ap-northeast-2.rds.amazonaws.com",
+    host: "CLOUD DATABASE ADDRESS",
     user: "admin",
     password: "asdf1234",
     database: "HANIUM1"
