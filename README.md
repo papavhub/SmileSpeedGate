@@ -21,6 +21,9 @@
 
 3. 구성도
 
+![image](https://user-images.githubusercontent.com/67986703/178646664-eacd4518-b9c3-43d2-bc35-b0a8177ff3a6.png)
+
+
 
 4. 개발 배경 및 필요성
 - 코로나로 인해 공공기관과 기업 출입 시 체온 측정이 필수인 상황이기에 사람들은 여러 단계의 과정을 거쳐 건물에 출입하게 된다. 따라서 불필요한 단계들을 줄이기 위하여 출입문의 게이트에서 바로 빠르게 비접촉 체온 측정이 가능하게 할 필요성이 있다.
@@ -37,7 +40,13 @@
 6. 주요 기능
 - 사람 식별 : 마스크를 착용한 상태에서 인물을 식별하여 신원을 확인함
 
+![image](https://user-images.githubusercontent.com/67986703/178646784-d5bba7a0-02cb-4b1a-a588-666388c4fda3.png)
+
 - 온도 측정 : 사람의 손목 체온을 확인하여 정상 체온인지 판별함
+
+![image](https://user-images.githubusercontent.com/67986703/178646813-4a7530b1-be34-4526-884e-47dca2b65ddc.png)
+![image](https://user-images.githubusercontent.com/67986703/178646855-6a79ef7a-df88-45b2-8e28-bc7bfdfc9984.png)
+
 
 - 동선 파악 : 게이트 통과시의 신원과 게이트, 시간을 확인하여 DB에 저장함
 
